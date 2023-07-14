@@ -5,7 +5,7 @@ const app = express();
 
 //config
 const PORT = process.env.PORT || 3030
-//var corsPort = { origin: "https://shopclientv.vercel.app" };
+//var corsPort = { origin: "shopclientv.vercel.app" };
 //middleware
 app.use(cors(corsPort));
 app.use(express.json());
